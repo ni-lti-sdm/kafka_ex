@@ -249,7 +249,7 @@ defmodule KafkaEx do
 
   @wait_time 10
   @min_bytes 1
-  @max_bytes 16384
+  @max_bytes 8192
 
   @doc """
   Fetch a set of messages from Kafka from the given topic and partition ID
